@@ -1,0 +1,254 @@
+.register-container {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+.register-hero {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.register-header {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.register-navlink {
+  display: contents;
+}
+.register-image {
+  width: 200px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.register-icon-group {
+  display: flex;
+}
+.register-burger-menu {
+  display: none;
+}
+.register-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: flex;
+}
+.register-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.register-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.register-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.register-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.register-image1 {
+  height: 2rem;
+}
+.register-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.register-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.register-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.register-icon10 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.register-container2 {
+  width: 1530px;
+  height: 874px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://images.unsplash.com/photo-1471086569966-db3eebc25a59?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxtaW5pbWFsaXNtJTIwcGxhbnR8ZW58MHx8fHwxNjI2MTgyODMw&ixlib=rb-1.2.1&w=1600');
+  background-position: center;
+}
+.register-text {
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.register-textinput {
+  align-self: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.register-textinput1 {
+  align-self: center;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.register-navlink1 {
+  align-self: center;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.register-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.register-button {
+  align-self: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.register-navlink2 {
+  text-decoration: none;
+}
+.register-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.register-image2 {
+  width: 200px;
+  object-fit: cover;
+}
+.register-link {
+  display: contents;
+}
+.register-icon12 {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+.register-link1 {
+  display: contents;
+}
+.register-icon14 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.register-link2 {
+  display: contents;
+}
+.register-icon16 {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+.register-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+@media(max-width: 991px) {
+  .register-hero {
+    flex-direction: column;
+  }
+  .register-container2 {
+    width: 80%;
+  }
+}
+@media(max-width: 767px) {
+  .register-hero {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .register-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .register-burger-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    justify-content: center;
+  }
+  .register-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .register-text4 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .register-hero {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .register-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .register-mobile-menu {
+    padding: 16px;
+  }
+  .register-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .register-text4 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

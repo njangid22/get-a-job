@@ -1,0 +1,253 @@
+.job-seeker-login-container {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+.job-seeker-login-hero {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.job-seeker-login-header {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.job-seeker-login-navlink {
+  display: contents;
+}
+.job-seeker-login-image {
+  width: 200px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.job-seeker-login-icon-group {
+  display: flex;
+}
+.job-seeker-login-burger-menu {
+  display: none;
+}
+.job-seeker-login-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: flex;
+}
+.job-seeker-login-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.job-seeker-login-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.job-seeker-login-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.job-seeker-login-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.job-seeker-login-image1 {
+  height: 2rem;
+}
+.job-seeker-login-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.job-seeker-login-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.job-seeker-login-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.job-seeker-login-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.job-seeker-login-icon10 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.job-seeker-login-container2 {
+  width: 1530px;
+  height: 874px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://images.unsplash.com/photo-1471086569966-db3eebc25a59?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxtaW5pbWFsaXNtJTIwcGxhbnR8ZW58MHx8fHwxNjI2MTgyODMw&ixlib=rb-1.2.1&w=1600');
+  background-position: center;
+}
+.job-seeker-login-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.job-seeker-login-text {
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.job-seeker-login-textinput {
+  align-self: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.job-seeker-login-textinput1 {
+  align-self: center;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.job-seeker-login-navlink1 {
+  align-self: center;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.job-seeker-login-button {
+  align-self: center;
+}
+.job-seeker-login-navlink2 {
+  text-decoration: none;
+}
+.job-seeker-login-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.job-seeker-login-image2 {
+  width: 200px;
+  object-fit: cover;
+}
+.job-seeker-login-link {
+  display: contents;
+}
+.job-seeker-login-icon12 {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+.job-seeker-login-link1 {
+  display: contents;
+}
+.job-seeker-login-icon14 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.job-seeker-login-link2 {
+  display: contents;
+}
+.job-seeker-login-icon16 {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+.job-seeker-login-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+@media(max-width: 991px) {
+  .job-seeker-login-hero {
+    flex-direction: column;
+  }
+  .job-seeker-login-container2 {
+    width: 80%;
+  }
+}
+@media(max-width: 767px) {
+  .job-seeker-login-hero {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .job-seeker-login-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .job-seeker-login-burger-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    justify-content: center;
+  }
+  .job-seeker-login-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .job-seeker-login-text4 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .job-seeker-login-hero {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .job-seeker-login-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .job-seeker-login-mobile-menu {
+    padding: 16px;
+  }
+  .job-seeker-login-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .job-seeker-login-text4 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
